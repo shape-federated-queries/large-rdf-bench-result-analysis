@@ -1,0 +1,17 @@
+{
+  "name": "result_analysis_large_rdf_bench",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "setup": "git submodule sync --recursive && git submodule update --init --recursive && make -C benchmark generate-clean-results",
+    "postinstall": "bun run setup",
+    "validate": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
