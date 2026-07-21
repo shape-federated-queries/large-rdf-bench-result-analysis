@@ -1,0 +1,240 @@
+{
+  "C7": {
+    "missing": [
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/inuse/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/inuse/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/inuse/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/generlchair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/semanticwebtechnologieschair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/semanticwebtechnologieschair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/martin-szomszor\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/semanticwebtechnologieschair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/aldo-gangemi\tcapital=uri|http://dbpedia.org/resource/Rome\tlatitude=NUM|41.9000\tlongitude=NUM|12.4833\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/33\tplace=uri|http://dbpedia.org/resource/Italy\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/tutorialschair",
+        "count": 3
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/mobility/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/mobility/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/yuzhong-qu\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/8\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/axel-polleres\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/onto/57\tplace=uri|http://dbpedia.org/resource/Ireland\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/pavel-shvaiko\tcapital=uri|http://dbpedia.org/resource/Rome\tlatitude=NUM|41.9000\tlongitude=NUM|12.4833\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/inuse/29\tplace=uri|http://dbpedia.org/resource/Italy\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 3
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/pavel-shvaiko\tcapital=uri|http://dbpedia.org/resource/Rome\tlatitude=NUM|41.9000\tlongitude=NUM|12.4833\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/inuse/29\tplace=uri|http://dbpedia.org/resource/Italy\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 3
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/sensor/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/sensor/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/sensor/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/services/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/services/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/services/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/yuzhong-qu\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/8\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/haofen-wang\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/29\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/yuzhong-qu\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/8\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlatitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tlongitude=L||http://www.w3.org/2001/XMLSchema#string|'null'\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/martin-szomszor\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      }
+    ],
+    "extra": [
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/inuse/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/inuse/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/generlchair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/semanticwebtechnologieschair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/mobility/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/axel-polleres\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/onto/57\tplace=uri|http://dbpedia.org/resource/Ireland\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/yuzhong-qu\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/8\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/sensor/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/sensor/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/services/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/services/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/yuzhong-qu\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/8\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/haofen-wang\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/29\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/yuzhong-qu\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/8\tplace=uri|http://dbpedia.org/resource/China\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/UK\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/lora-aroyo\tcapital=∅\tlatitude=∅\tlongitude=∅\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/mobility/4\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      }
+    ]
+  }
+}

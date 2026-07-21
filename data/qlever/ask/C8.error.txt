@@ -1,0 +1,11 @@
+Error: Request failed: http://n062-05a.wall2.ilabt.iminds.be:3002/sparql
+    at ActorHttpRetry.run (/users/brtamuge/experiment/node_modules/@comunica/actor-http-retry/lib/ActorHttpRetry.js:160:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async TestResultPassed.mapAsync (/users/brtamuge/experiment/node_modules/@comunica/core/lib/TestResult.js:114:37)
+    at async MediatorNumber.mediate (/users/brtamuge/experiment/node_modules/@comunica/core/lib/Mediator.js:95:26)
+    at async ActorHttpWayback.run (/users/brtamuge/experiment/node_modules/@comunica/actor-http-wayback/lib/ActorHttpWayback.js:35:22)
+    at async TestResultPassed.mapAsync (/users/brtamuge/experiment/node_modules/@comunica/core/lib/TestResult.js:114:37)
+    at async MediatorNumber.mediate (/users/brtamuge/experiment/node_modules/@comunica/core/lib/Mediator.js:95:26)
+    at async ActorHttpLimitRate.run (/users/brtamuge/experiment/node_modules/@comunica/actor-http-limit-rate/lib/ActorHttpLimitRate.js:79:30)
+    at async TestResultPassed.mapAsync (/users/brtamuge/experiment/node_modules/@comunica/core/lib/TestResult.js:114:37)
+    at async MediatorNumber.mediate (/users/brtamuge/experiment/node_modules/@comunica/core/lib/Mediator.js:95:26)

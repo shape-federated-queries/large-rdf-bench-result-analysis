@@ -1,0 +1,11 @@
+Error: Unexpected "!" at position 0 in state STOP
+    at proto.charError (/users/brtamuge/experiment/node_modules/@bergos/jsonparse/jsonparse.js:94:16)
+    at proto.write (/users/brtamuge/experiment/node_modules/@bergos/jsonparse/jsonparse.js:158:23)
+    at Transform.transform [as _transform] (/users/brtamuge/experiment/node_modules/fetch-sparql-endpoint/node_modules/sparqljson-parse/lib/SparqlJsonParser.js:98:28)
+    at Transform._write (/users/brtamuge/experiment/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)
+    at writeOrBuffer (/users/brtamuge/experiment/node_modules/readable-stream/lib/internal/streams/writable.js:336:12)
+    at _write (/users/brtamuge/experiment/node_modules/readable-stream/lib/internal/streams/writable.js:285:10)
+    at Writable.write (/users/brtamuge/experiment/node_modules/readable-stream/lib/internal/streams/writable.js:288:10)
+    at ReadableFromWeb.ondata (/users/brtamuge/experiment/node_modules/readable-stream/lib/internal/streams/readable.js:707:22)
+    at ReadableFromWeb.emit (node:events:519:28)
+    at addChunk (/users/brtamuge/experiment/node_modules/readable-stream/lib/internal/streams/readable.js:323:12)

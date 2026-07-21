@@ -1,0 +1,101 @@
+{
+  "C7": {
+    "missing": [
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/inuse/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/semanticwebtechnologieschair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/martin-szomszor\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/semanticwebtechnologieschair",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/aldo-gangemi\tcapital=uri|http://dbpedia.org/resource/Rome\tlatitude=NUM|41.9000\tlongitude=NUM|12.4833\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/33\tplace=uri|http://dbpedia.org/resource/Italy\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/main/chair/tutorialschair",
+        "count": 3
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/mobility/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/pavel-shvaiko\tcapital=uri|http://dbpedia.org/resource/Rome\tlatitude=NUM|41.9000\tlongitude=NUM|12.4833\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/inuse/29\tplace=uri|http://dbpedia.org/resource/Italy\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/onto/pcmember",
+        "count": 3
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/pavel-shvaiko\tcapital=uri|http://dbpedia.org/resource/Rome\tlatitude=NUM|41.9000\tlongitude=NUM|12.4833\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/inuse/29\tplace=uri|http://dbpedia.org/resource/Italy\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/phd_symposium/pcmember",
+        "count": 3
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/sensor/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/services/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/social_web/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/harith-alani\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      },
+      {
+        "row": "author=uri|http://data.semanticweb.org/person/martin-szomszor\tcapital=uri|http://dbpedia.org/resource/London\tlatitude=NUM|51.5000\tlongitude=NUM|-0.116667\tpaper=uri|http://data.semanticweb.org/conference/eswc/2010/paper/social_web/5\tplace=uri|http://dbpedia.org/resource/United_Kingdom\tproceedings=uri|http://data.semanticweb.org/conference/eswc/2010/proceedings\trole=uri|http://data.semanticweb.org/conference/eswc/2010/web_of_data/pcmember",
+        "count": 1
+      }
+    ],
+    "extra": []
+  },
+  "C8": {
+    "missing": [],
+    "extra": [
+      {
+        "row": "affiliation=uri|http://data.semanticweb.org/organization/deri-nui-galway\tauthor=uri|http://data.semanticweb.org/person/eyal-oren\tcapital=uri|http://dbpedia.org/resource/Amsterdam\tfullnames=L||http://www.w3.org/2001/XMLSchema#string|Eyal Oren\tgovernmentType=uri|http://dbpedia.org/resource/Parliamentary_system\tlanguage=uri|http://dbpedia.org/resource/Dutch_language\tleaderTitle=L|en||Monarch\tpaper=uri|http://data.semanticweb.org/conference/iswc/2009/paper/research/374\tplace=uri|http://dbpedia.org/resource/Netherlands\tpopulationDensity=NUM|41526.0\tproceedingAddress=L||http://www.w3.org/2001/XMLSchema#string|Berlin, Heidelberg, New York",
+        "count": 1
+      },
+      {
+        "row": "affiliation=uri|http://data.semanticweb.org/organization/deri-nui-galway\tauthor=uri|http://data.semanticweb.org/person/eyal-oren\tcapital=uri|http://dbpedia.org/resource/Amsterdam\tfullnames=L||http://www.w3.org/2001/XMLSchema#string|Eyal Oren\tgovernmentType=uri|http://dbpedia.org/resource/Parliamentary_system\tlanguage=uri|http://dbpedia.org/resource/Dutch_language\tleaderTitle=L|en||Prime Minister\tpaper=uri|http://data.semanticweb.org/conference/iswc/2009/paper/research/374\tplace=uri|http://dbpedia.org/resource/Netherlands\tpopulationDensity=NUM|41526.0\tproceedingAddress=L||http://www.w3.org/2001/XMLSchema#string|Berlin, Heidelberg, New York",
+        "count": 1
+      },
+      {
+        "row": "affiliation=uri|http://data.semanticweb.org/organization/deri-nui-galway\tauthor=uri|http://data.semanticweb.org/person/eyal-oren\tcapital=∅\tfullnames=L||http://www.w3.org/2001/XMLSchema#string|Eyal Oren\tgovernmentType=∅\tlanguage=∅\tleaderTitle=∅\tpaper=uri|http://data.semanticweb.org/conference/iswc/2009/paper/research/374\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tpopulationDensity=∅\tproceedingAddress=L||http://www.w3.org/2001/XMLSchema#string|Berlin, Heidelberg, New York",
+        "count": 1
+      },
+      {
+        "row": "affiliation=uri|http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands\tauthor=uri|http://data.semanticweb.org/person/eyal-oren\tcapital=uri|http://dbpedia.org/resource/Amsterdam\tfullnames=L||http://www.w3.org/2001/XMLSchema#string|Eyal Oren\tgovernmentType=uri|http://dbpedia.org/resource/Parliamentary_system\tlanguage=uri|http://dbpedia.org/resource/Dutch_language\tleaderTitle=L|en||Monarch\tpaper=uri|http://data.semanticweb.org/conference/iswc/2009/paper/research/374\tplace=uri|http://dbpedia.org/resource/Netherlands\tpopulationDensity=NUM|41526.0\tproceedingAddress=L||http://www.w3.org/2001/XMLSchema#string|Berlin, Heidelberg, New York",
+        "count": 1
+      },
+      {
+        "row": "affiliation=uri|http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands\tauthor=uri|http://data.semanticweb.org/person/eyal-oren\tcapital=uri|http://dbpedia.org/resource/Amsterdam\tfullnames=L||http://www.w3.org/2001/XMLSchema#string|Eyal Oren\tgovernmentType=uri|http://dbpedia.org/resource/Parliamentary_system\tlanguage=uri|http://dbpedia.org/resource/Dutch_language\tleaderTitle=L|en||Prime Minister\tpaper=uri|http://data.semanticweb.org/conference/iswc/2009/paper/research/374\tplace=uri|http://dbpedia.org/resource/Netherlands\tpopulationDensity=NUM|41526.0\tproceedingAddress=L||http://www.w3.org/2001/XMLSchema#string|Berlin, Heidelberg, New York",
+        "count": 1
+      },
+      {
+        "row": "affiliation=uri|http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands\tauthor=uri|http://data.semanticweb.org/person/eyal-oren\tcapital=∅\tfullnames=L||http://www.w3.org/2001/XMLSchema#string|Eyal Oren\tgovernmentType=∅\tlanguage=∅\tleaderTitle=∅\tpaper=uri|http://data.semanticweb.org/conference/iswc/2009/paper/research/374\tplace=uri|http://dbpedia.org/resource/The_Netherlands\tpopulationDensity=∅\tproceedingAddress=L||http://www.w3.org/2001/XMLSchema#string|Berlin, Heidelberg, New York",
+        "count": 1
+      }
+    ]
+  },
+  "S7": {
+    "missing": [],
+    "extra": [
+      {
+        "row": "location=uri|http://sws.geonames.org/5369907/\tnews=uri|http://topics.nytimes.com/top/great-homes-and-destinations/destinations/southern-california/index.html",
+        "count": 1
+      }
+    ]
+  }
+}

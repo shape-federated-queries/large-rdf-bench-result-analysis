@@ -1,0 +1,161 @@
+{
+  "results": "data/qlever/count",
+  "official": "benchmark/results",
+  "totals": {
+    "OK": 14,
+    "MISMATCH": 3,
+    "ERROR": 3,
+    "MISSING": 8
+  },
+  "queries": [
+    {
+      "name": "B1",
+      "status": "MISSING"
+    },
+    {
+      "name": "B2",
+      "status": "MISSING"
+    },
+    {
+      "name": "B3",
+      "status": "MISSING"
+    },
+    {
+      "name": "B4",
+      "status": "MISSING"
+    },
+    {
+      "name": "B5",
+      "status": "MISSING"
+    },
+    {
+      "name": "B6",
+      "status": "MISSING"
+    },
+    {
+      "name": "B7",
+      "status": "MISSING"
+    },
+    {
+      "name": "B8",
+      "status": "MISSING"
+    },
+    {
+      "name": "C10",
+      "status": "OK",
+      "got": 102,
+      "ref": 102
+    },
+    {
+      "name": "C2",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "C3",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "C6",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "C7",
+      "status": "MISMATCH",
+      "got": 92,
+      "ref": 112
+    },
+    {
+      "name": "C8",
+      "status": "MISMATCH",
+      "got": 3073,
+      "ref": 3067
+    },
+    {
+      "name": "S1",
+      "status": "OK",
+      "got": 90,
+      "ref": 90
+    },
+    {
+      "name": "S10",
+      "status": "OK",
+      "got": 9054,
+      "ref": 9054
+    },
+    {
+      "name": "S11",
+      "status": "OK",
+      "got": 3,
+      "ref": 3
+    },
+    {
+      "name": "S12",
+      "status": "OK",
+      "got": 393,
+      "ref": 393
+    },
+    {
+      "name": "S13",
+      "status": "OK",
+      "got": 28,
+      "ref": 28
+    },
+    {
+      "name": "S14",
+      "status": "OK",
+      "got": 1620,
+      "ref": 1620
+    },
+    {
+      "name": "S2",
+      "status": "OK",
+      "got": 1,
+      "ref": 1
+    },
+    {
+      "name": "S3",
+      "status": "OK",
+      "got": 2,
+      "ref": 2
+    },
+    {
+      "name": "S4",
+      "status": "OK",
+      "got": 1,
+      "ref": 1
+    },
+    {
+      "name": "S5",
+      "status": "OK",
+      "got": 2,
+      "ref": 2
+    },
+    {
+      "name": "S6",
+      "status": "OK",
+      "got": 11,
+      "ref": 11
+    },
+    {
+      "name": "S7",
+      "status": "MISMATCH",
+      "got": 2,
+      "ref": 1
+    },
+    {
+      "name": "S8",
+      "status": "OK",
+      "got": 1159,
+      "ref": 1159
+    },
+    {
+      "name": "S9",
+      "status": "OK",
+      "got": 333,
+      "ref": 333
+    }
+  ]
+}

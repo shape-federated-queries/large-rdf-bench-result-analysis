@@ -1,0 +1,151 @@
+{
+  "results": "data/qlever/ask",
+  "official": "benchmark/results",
+  "totals": {
+    "OK": 7,
+    "MISMATCH": 0,
+    "ERROR": 13,
+    "MISSING": 8
+  },
+  "queries": [
+    {
+      "name": "B1",
+      "status": "MISSING"
+    },
+    {
+      "name": "B2",
+      "status": "MISSING"
+    },
+    {
+      "name": "B3",
+      "status": "MISSING"
+    },
+    {
+      "name": "B4",
+      "status": "MISSING"
+    },
+    {
+      "name": "B5",
+      "status": "MISSING"
+    },
+    {
+      "name": "B6",
+      "status": "MISSING"
+    },
+    {
+      "name": "B7",
+      "status": "MISSING"
+    },
+    {
+      "name": "B8",
+      "status": "MISSING"
+    },
+    {
+      "name": "C10",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "C2",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "C3",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "C6",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "C7",
+      "status": "ERROR",
+      "error": "Error: Request failed: http://n062-05a.wall2.ilabt.iminds.be:3002/sparql"
+    },
+    {
+      "name": "C8",
+      "status": "ERROR",
+      "error": "Error: Request failed: http://n062-05a.wall2.ilabt.iminds.be:3002/sparql"
+    },
+    {
+      "name": "S1",
+      "status": "OK",
+      "got": 90,
+      "ref": 90
+    },
+    {
+      "name": "S10",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "S11",
+      "status": "OK",
+      "got": 3,
+      "ref": 3
+    },
+    {
+      "name": "S12",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "S13",
+      "status": "OK",
+      "got": 28,
+      "ref": 28
+    },
+    {
+      "name": "S14",
+      "status": "OK",
+      "got": 1620,
+      "ref": 1620
+    },
+    {
+      "name": "S2",
+      "status": "OK",
+      "got": 1,
+      "ref": 1
+    },
+    {
+      "name": "S3",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "S4",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "S5",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "S6",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "S7",
+      "status": "ERROR",
+      "error": "Error: TIMEOUT after 1800000ms"
+    },
+    {
+      "name": "S8",
+      "status": "OK",
+      "got": 1159,
+      "ref": 1159
+    },
+    {
+      "name": "S9",
+      "status": "OK",
+      "got": 333,
+      "ref": 333
+    }
+  ]
+}

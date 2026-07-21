@@ -6,12 +6,21 @@
   "scripts": {
     "setup": "git submodule sync --recursive && git submodule update --init --recursive && make -C benchmark generate-clean-results",
     "postinstall": "bun run setup",
-    "validate": "bun index.ts"
+    "validate:comunica:count": "bun index.ts data/comunica/count",
+    "validate:comunica:ask": "bun index.ts data/comunica/ask",
+    "validate:qlever:count": "bun index.ts data/qlever/count",
+    "validate:qlever:ask": "bun index.ts data/qlever/ask",
+    "validate:mixed:count": "bun index.ts data/mixed/count",
+    "validate:mixed:ask": "bun index.ts data/mixed/ask",
+    "validate:all": "bun run validate:comunica:count; bun run validate:comunica:ask; bun run validate:qlever:count; bun run validate:qlever:ask; bun run validate:mixed:count; bun run validate:mixed:ask"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@comunica/query-sparql": "^5.3.0"
   }
 }

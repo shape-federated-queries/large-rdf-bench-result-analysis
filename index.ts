@@ -23,9 +23,20 @@ interface Query {
 const XSD_STRING = 'http://www.w3.org/2001/XMLSchema#string';
 const RESULTS = process.argv[2] ?? 'data/count';
 const OFFICIAL = process.argv[3] ?? 'benchmark/results';
-const OUT_DIR = 'report';
+const OUT_DIR = `report/${RESULTS.replace(/^data\//u, '').replace(/\/+$/u, '') || 'default'}`;
 const SUMMARY_OUT = `${OUT_DIR}/summary.json`;
 const MISMATCH_OUT = `${OUT_DIR}/mismatches.json`;
+
+// xsd numeric datatypes. Engines disagree on both the numeric type (e.g. double
+// vs decimal) and the serialized precision of the same value, so for evaluation
+// we compare numeric literals by value at NUM_SIG significant figures, ignoring
+// the specific numeric datatype. This normalization is discussed in the paper.
+const NUMERIC = new Set([
+  'double', 'float', 'decimal', 'integer', 'int', 'long', 'short', 'byte',
+  'nonNegativeInteger', 'positiveInteger', 'nonPositiveInteger', 'negativeInteger',
+  'unsignedLong', 'unsignedInt', 'unsignedShort', 'unsignedByte',
+]);
+const NUM_SIG = 6;
 
 // Whitespace flattened on both sides; RDF 1.1 lang-less literal is xsd:string.
 function termKey(t: Term | undefined): string {
@@ -37,17 +48,31 @@ function termKey(t: Term | undefined): string {
   }
   const lang = (t['xml:lang'] ?? '').toLowerCase();
   const dt = lang ? '' : (t.datatype ?? XSD_STRING);
+  if (!lang && NUMERIC.has(dt.split('#').pop() ?? '')) {
+    const n = Number(t.value);
+    if (Number.isFinite(n)) {
+      return `NUM|${n.toPrecision(NUM_SIG)}`;
+    }
+  }
   return `L|${lang}|${dt}|${t.value.replace(/\s+/gu, ' ').trim()}`;
 }
 
-async function loadRows(file: string): Promise<string[] | null> {
+async function loadSrj(file: string): Promise<{ vars: string[]; bindings: Binding[] } | null> {
   const f = Bun.file(file);
   if (!(await f.exists())) {
     return null;
   }
   const j = (await f.json()) as Srj;
-  const vars = [...(j.head?.vars ?? [])].sort();
-  return (j.results?.bindings ?? []).map(row => vars.map(v => `${v}=${termKey(row[v])}`).join('\t'));
+  return { vars: [...(j.head?.vars ?? [])], bindings: j.results?.bindings ?? [] };
+}
+
+// Build one comparable key per binding over `vars` (sorted). A column that is
+// unbound in every row on both sides carries no answer, so the caller drops it
+// before calling this; that keeps engines that project an all-unbound SELECT
+// variable comparable with engines that omit it from head.vars.
+function rowKeys(bindings: Binding[], vars: string[]): string[] {
+  const cols = [...vars].sort();
+  return bindings.map(row => cols.map(v => `${v}=${termKey(row[v])}`).join('\t'));
 }
 
 async function firstErrorLine(file: string): Promise<string | null> {
@@ -89,14 +114,22 @@ function diff(got: string[], ref: string[]): { missing: Row[]; extra: Row[] } {
 }
 
 async function classify(name: string): Promise<Query> {
-  const got = await loadRows(join(RESULTS, `${name}.srj`));
+  const got = await loadSrj(join(RESULTS, `${name}.srj`));
   if (got !== null) {
-    const ref = (await loadRows(join(OFFICIAL, `${name}.srj`))) ?? [];
-    const { missing, extra } = diff(got, ref);
+    const ref = (await loadSrj(join(OFFICIAL, `${name}.srj`))) ?? { vars: [], bindings: [] };
+    // Compare only variables bound in at least one row on either side; a column
+    // unbound everywhere carries no answer and its presence in head.vars is an
+    // engine-serialization choice, not an answer difference.
+    const allVars = [...new Set([...got.vars, ...ref.vars])];
+    const liveVars = allVars.filter(v =>
+      got.bindings.some(row => row[v]) || ref.bindings.some(row => row[v]));
+    const g = rowKeys(got.bindings, liveVars);
+    const r = rowKeys(ref.bindings, liveVars);
+    const { missing, extra } = diff(g, r);
     if (missing.length === 0 && extra.length === 0) {
-      return { name, status: 'OK', got: got.length, ref: ref.length };
+      return { name, status: 'OK', got: g.length, ref: r.length };
     }
-    return { name, status: 'MISMATCH', got: got.length, ref: ref.length, missing, extra };
+    return { name, status: 'MISMATCH', got: g.length, ref: r.length, missing, extra };
   }
   const error = await firstErrorLine(join(RESULTS, `${name}.error.txt`));
   if (error !== null) {
