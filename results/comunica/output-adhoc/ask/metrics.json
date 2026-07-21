@@ -1,0 +1,462 @@
+{
+  "mode": "ask",
+  "reps": 3,
+  "queries": [
+    {
+      "name": "S1",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 31559.874697,
+          "totalMs": 36768.178554000006,
+          "httpRequests": 123,
+          "results": 90
+        },
+        {
+          "rep": 2,
+          "planningMs": 25499.222744,
+          "totalMs": 31657.907337999997,
+          "httpRequests": 120,
+          "results": 90
+        },
+        {
+          "rep": 3,
+          "planningMs": 25518.511388,
+          "totalMs": 38076.515462,
+          "httpRequests": 120,
+          "results": 90
+        }
+      ]
+    },
+    {
+      "name": "S2",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 14929.725236000006,
+          "totalMs": 15298.226500000004,
+          "httpRequests": 107,
+          "results": 1
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "planningMs": 22718.045951,
+          "totalMs": 23039.270088999998,
+          "httpRequests": 107,
+          "results": 1
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S4",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "node:events:497"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S6",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: terminated"
+        }
+      ]
+    },
+    {
+      "name": "S7",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S8",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 21293.697803000003,
+          "totalMs": 21464.989292000006,
+          "httpRequests": 82,
+          "results": 1159
+        },
+        {
+          "rep": 2,
+          "planningMs": 12400.970266,
+          "totalMs": 12562.399890999997,
+          "httpRequests": 82,
+          "results": 1159
+        },
+        {
+          "rep": 3,
+          "planningMs": 31818.041387000005,
+          "totalMs": 31994.238998,
+          "httpRequests": 82,
+          "results": 1159
+        }
+      ]
+    },
+    {
+      "name": "S9",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 27698.016465,
+          "totalMs": 77483.110541,
+          "httpRequests": 227,
+          "results": 333
+        },
+        {
+          "rep": 2,
+          "planningMs": 34182.743956,
+          "totalMs": 117034.20575700002,
+          "httpRequests": 230,
+          "results": 333
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S10",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S11",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "planningMs": 128191.811815,
+          "totalMs": 128276.40006799999,
+          "httpRequests": 195,
+          "results": 3
+        }
+      ]
+    },
+    {
+      "name": "S12",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: terminated"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S13",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 64845.916992,
+          "totalMs": 1369953.0968680002,
+          "httpRequests": 501693,
+          "results": 28
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "planningMs": 28712.502440000004,
+          "totalMs": 1278829.361463,
+          "httpRequests": 501703,
+          "results": 28
+        }
+      ]
+    },
+    {
+      "name": "S14",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 69783.182792,
+          "totalMs": 534731.361839,
+          "httpRequests": 104877,
+          "results": 1620
+        },
+        {
+          "rep": 2,
+          "planningMs": 72785.61094,
+          "totalMs": 504611.77540499996,
+          "httpRequests": 104882,
+          "results": 1620
+        },
+        {
+          "rep": 3,
+          "planningMs": 69956.603143,
+          "totalMs": 542332.916031,
+          "httpRequests": 104877,
+          "results": 1620
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C5",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C6",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C7",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "Error: Request failed: http://n063-13b.wall2.ilabt.iminds.be:3002/sparql"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C8",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C9",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C10",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    }
+  ]
+}

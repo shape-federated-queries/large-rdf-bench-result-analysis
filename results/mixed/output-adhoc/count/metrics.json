@@ -1,0 +1,525 @@
+{
+  "mode": "count",
+  "reps": 3,
+  "queries": [
+    {
+      "name": "S1",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 7911.828955999998,
+          "totalMs": 8551.781887999998,
+          "httpRequests": 187,
+          "results": 90
+        },
+        {
+          "rep": 2,
+          "planningMs": 7987.666791,
+          "totalMs": 8751.947003000001,
+          "httpRequests": 187,
+          "results": 90
+        },
+        {
+          "rep": 3,
+          "planningMs": 8217.450135,
+          "totalMs": 11284.213114999999,
+          "httpRequests": 187,
+          "results": 90
+        }
+      ]
+    },
+    {
+      "name": "S2",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 2543.940233999998,
+          "totalMs": 2578.987100999999,
+          "httpRequests": 134,
+          "results": 1
+        },
+        {
+          "rep": 2,
+          "planningMs": 2282.6222129999987,
+          "totalMs": 2318.1324190000014,
+          "httpRequests": 134,
+          "results": 1
+        },
+        {
+          "rep": 3,
+          "planningMs": 2423.063915999999,
+          "totalMs": 2456.6564739999994,
+          "httpRequests": 134,
+          "results": 1
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 8967.796500999997,
+          "totalMs": 11587.145377999997,
+          "httpRequests": 293,
+          "results": 2
+        },
+        {
+          "rep": 2,
+          "planningMs": 8914.859959000001,
+          "totalMs": 12129.692731,
+          "httpRequests": 293,
+          "results": 2
+        },
+        {
+          "rep": 3,
+          "planningMs": 8763.776091,
+          "totalMs": 11858.349246999998,
+          "httpRequests": 293,
+          "results": 2
+        }
+      ]
+    },
+    {
+      "name": "S4",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 8602.964185000004,
+          "totalMs": 11944.83672,
+          "httpRequests": 260,
+          "results": 2
+        },
+        {
+          "rep": 2,
+          "planningMs": 8077.5749270000015,
+          "totalMs": 10123.661414999999,
+          "httpRequests": 260,
+          "results": 2
+        },
+        {
+          "rep": 3,
+          "planningMs": 8601.401762999998,
+          "totalMs": 11003.485347999998,
+          "httpRequests": 262,
+          "results": 2
+        }
+      ]
+    },
+    {
+      "name": "S6",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "planningMs": 7817.6675689999975,
+          "totalMs": 236889.57798500004,
+          "httpRequests": 83059,
+          "results": 11
+        },
+        {
+          "rep": 3,
+          "planningMs": 7837.635482999998,
+          "totalMs": 360527.09810899996,
+          "httpRequests": 83107,
+          "results": 11
+        }
+      ]
+    },
+    {
+      "name": "S7",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S8",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 1344.6187419999987,
+          "totalMs": 1527.4579859999976,
+          "httpRequests": 110,
+          "results": 1159
+        },
+        {
+          "rep": 2,
+          "planningMs": 1459.9654100000007,
+          "totalMs": 1649.8346310000015,
+          "httpRequests": 110,
+          "results": 1159
+        },
+        {
+          "rep": 3,
+          "planningMs": 1520.9051040000013,
+          "totalMs": 1790.1467129999983,
+          "httpRequests": 110,
+          "results": 1159
+        }
+      ]
+    },
+    {
+      "name": "S9",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 7873.169854000003,
+          "totalMs": 8995.622793000002,
+          "httpRequests": 500,
+          "results": 333
+        },
+        {
+          "rep": 2,
+          "planningMs": 7771.710523999998,
+          "totalMs": 9118.211954999999,
+          "httpRequests": 500,
+          "results": 333
+        },
+        {
+          "rep": 3,
+          "planningMs": 7945.067415000001,
+          "totalMs": 9738.756112,
+          "httpRequests": 499,
+          "results": 333
+        }
+      ]
+    },
+    {
+      "name": "S10",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 8125.659920000002,
+          "totalMs": 1396154.3262840002,
+          "httpRequests": 587878,
+          "results": 9054
+        },
+        {
+          "rep": 2,
+          "planningMs": 8481.656394000001,
+          "totalMs": 1289669.053025,
+          "httpRequests": 588065,
+          "results": 9054
+        },
+        {
+          "rep": 3,
+          "planningMs": 104186.605864,
+          "totalMs": 1465228.218547,
+          "httpRequests": 588148,
+          "results": 9054
+        }
+      ]
+    },
+    {
+      "name": "S11",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "planningMs": 200812.554049,
+          "totalMs": 200967.524205,
+          "httpRequests": 235,
+          "results": 3
+        },
+        {
+          "rep": 3,
+          "planningMs": 8298.343951999996,
+          "totalMs": 8648.218567999997,
+          "httpRequests": 224,
+          "results": 3
+        }
+      ]
+    },
+    {
+      "name": "S12",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S13",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S14",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 8304.301784,
+          "totalMs": 50545.560113,
+          "httpRequests": 7606,
+          "results": 1620
+        },
+        {
+          "rep": 2,
+          "planningMs": 8264.670654000001,
+          "totalMs": 60679.891294,
+          "httpRequests": 7603,
+          "results": 1620
+        },
+        {
+          "rep": 3,
+          "planningMs": 8314.961317000001,
+          "totalMs": 75500.23227600001,
+          "httpRequests": 7604,
+          "results": 1620
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 9913.883516999998,
+          "totalMs": 455432.92694,
+          "httpRequests": 87596,
+          "results": 1000
+        },
+        {
+          "rep": 2,
+          "planningMs": 9540.605762000003,
+          "totalMs": 454743.78576899995,
+          "httpRequests": 87595,
+          "results": 1000
+        },
+        {
+          "rep": 3,
+          "planningMs": 225680.670409,
+          "totalMs": 616078.960673,
+          "httpRequests": 87336,
+          "results": 1000
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: terminated"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: terminated"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 383426.17798399995,
+          "totalMs": 524608.678298,
+          "httpRequests": 1197,
+          "results": 50
+        },
+        {
+          "rep": 2,
+          "planningMs": 552259.032247,
+          "totalMs": 794231.486925,
+          "httpRequests": 1208,
+          "results": 50
+        },
+        {
+          "rep": 3,
+          "planningMs": 518031.06748800003,
+          "totalMs": 824521.404292,
+          "httpRequests": 1206,
+          "results": 50
+        }
+      ]
+    },
+    {
+      "name": "C5",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C6",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C7",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: Request failed: http://n061-09a.wall2.ilabt.iminds.be:3002/sparql"
+        },
+        {
+          "rep": 2,
+          "error": "Error: Request failed: http://n061-09a.wall2.ilabt.iminds.be:3002/sparql"
+        },
+        {
+          "rep": 3,
+          "error": "Error: Request failed: http://n063-03a.wall2.ilabt.iminds.be:3002/sparql"
+        }
+      ]
+    },
+    {
+      "name": "C8",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "Error: Request failed: http://n063-03a.wall2.ilabt.iminds.be:3002/sparql"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C9",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C10",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 55657.82689299999,
+          "totalMs": 63758.706395999994,
+          "httpRequests": 2156,
+          "results": 102
+        },
+        {
+          "rep": 2,
+          "planningMs": 56322.366096,
+          "totalMs": 64570.79209300001,
+          "httpRequests": 2152,
+          "results": 102
+        },
+        {
+          "rep": 3,
+          "planningMs": 56237.01999500001,
+          "totalMs": 64070.764226,
+          "httpRequests": 2145,
+          "results": 102
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "mode": "count",
+  "reps": 3,
+  "queries": [
+    {
+      "name": "S1",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 46631.850019000005,
+          "totalMs": 64830.05252,
+          "httpRequests": 218,
+          "results": 90
+        },
+        {
+          "rep": 2,
+          "planningMs": 26052.689846,
+          "totalMs": 31420.200402000002,
+          "httpRequests": 213,
+          "results": 90
+        },
+        {
+          "rep": 3,
+          "planningMs": 28826.950114,
+          "totalMs": 38006.328182,
+          "httpRequests": 215,
+          "results": 90
+        }
+      ]
+    },
+    {
+      "name": "S2",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 25960.648409999998,
+          "totalMs": 26483.519840999998,
+          "httpRequests": 157,
+          "results": 1
+        },
+        {
+          "rep": 2,
+          "planningMs": 42677.499014,
+          "totalMs": 42999.866196999996,
+          "httpRequests": 159,
+          "results": 1
+        },
+        {
+          "rep": 3,
+          "planningMs": 35421.566078,
+          "totalMs": 36009.440671000004,
+          "httpRequests": 157,
+          "results": 1
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S4",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "[warmup] failed: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S6",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "[warmup] failed: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S7",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "[warmup] failed: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: terminated"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S8",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 14408.359385,
+          "totalMs": 14567.559075000001,
+          "httpRequests": 128,
+          "results": 1159
+        },
+        {
+          "rep": 2,
+          "planningMs": 13690.551395000002,
+          "totalMs": 13849.887668000003,
+          "httpRequests": 127,
+          "results": 1159
+        },
+        {
+          "rep": 3,
+          "planningMs": 30976.363939,
+          "totalMs": 31154.991979000002,
+          "httpRequests": 130,
+          "results": 1159
+        }
+      ]
+    },
+    {
+      "name": "S9",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 38796.785799,
+          "totalMs": 139827.986718,
+          "httpRequests": 530,
+          "results": 333
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S10",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S11",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 232536.030173,
+          "totalMs": 232685.22699499998,
+          "httpRequests": 298,
+          "results": 3
+        },
+        {
+          "rep": 2,
+          "planningMs": 242257.013336,
+          "totalMs": 242409.314782,
+          "httpRequests": 280,
+          "results": 3
+        },
+        {
+          "rep": 3,
+          "planningMs": 222222.212895,
+          "totalMs": 222435.01734,
+          "httpRequests": 268,
+          "results": 3
+        }
+      ]
+    },
+    {
+      "name": "S12",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "S13",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "[warmup] failed: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "S14",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 57087.620583,
+          "totalMs": 85067.307049,
+          "httpRequests": 7634,
+          "results": 1620
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 346208.780194,
+          "totalMs": 745183.177458,
+          "httpRequests": 87638,
+          "results": 1000
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "planningMs": 333056.64109600004,
+          "totalMs": 724045.363882,
+          "httpRequests": 87599,
+          "results": 1000
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "[warmup] failed: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: Unexpected \"!\" at position 0 in state STOP"
+        },
+        {
+          "rep": 2,
+          "planningMs": 815859.627963,
+          "totalMs": 1059300.587925,
+          "httpRequests": 1255,
+          "results": 50
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C5",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C6",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C7",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: Request failed: http://n063-13b.wall2.ilabt.iminds.be:3002/sparql"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "Error: Request failed: http://n063-13b.wall2.ilabt.iminds.be:3002/sparql"
+        }
+      ]
+    },
+    {
+      "name": "C8",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "Error: Request failed: http://n063-13b.wall2.ilabt.iminds.be:3002/sparql"
+        },
+        {
+          "rep": 3,
+          "error": "Error: Request failed: http://n063-13b.wall2.ilabt.iminds.be:3002/sparql"
+        }
+      ]
+    },
+    {
+      "name": "C9",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C10",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    }
+  ]
+}

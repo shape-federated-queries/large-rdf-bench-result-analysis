@@ -1,0 +1,15 @@
+{"head": {"vars":["name","location","news"]},
+"results": { "bindings": [
+{"name":{"value":"Superdefekt","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"Chaos","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"Michael Bartels","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"Remote Controlled","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"Melophon","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"Arne Pahlke","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"The Gay Romeos","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"Der tollwütige Kasper","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"The Rodeo Five","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"the ad.kowas","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}},
+{"name":{"value":"herr gau","type":"literal"},"location":{"value":"http://sws.geonames.org/2911297/","type":"uri"}}
+]},
+"metadata": { "httpRequests": 3869 }}

@@ -1,0 +1,6 @@
+{"head": {"vars":["location","news"]},
+"results": { "bindings": [
+{"news":{"value":"http://topics.nytimes.com/top/great-homes-and-destinations/destinations/southern-california/index.html","type":"uri"},"location":{"value":"http://sws.geonames.org/5369907/","type":"uri"}},
+{"news":{"value":"http://topics.nytimes.com/top/great-homes-and-destinations/destinations/southern-california/index.html","type":"uri"},"location":{"value":"http://sws.geonames.org/5369907/","type":"uri"}}
+]},
+"metadata": { "httpRequests": 162975 }}

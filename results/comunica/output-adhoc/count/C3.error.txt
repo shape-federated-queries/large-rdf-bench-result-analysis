@@ -1,0 +1,5 @@
+[warmup] failed: fetch failed
+Error: TIMEOUT after 1800000ms
+    at Timeout.<anonymous> (/users/brtamuge/experiment/scripts/lib.js:151:14)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)

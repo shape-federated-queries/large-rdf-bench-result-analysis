@@ -1,0 +1,594 @@
+{
+  "mode": "count",
+  "reps": 3,
+  "queries": [
+    {
+      "name": "S1",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 222.10561400000006,
+          "totalMs": 387.89801500000067,
+          "httpRequests": 134,
+          "results": 90
+        },
+        {
+          "rep": 2,
+          "planningMs": 225.8301309999988,
+          "totalMs": 369.3082340000001,
+          "httpRequests": 134,
+          "results": 90
+        },
+        {
+          "rep": 3,
+          "planningMs": 233.92716500000097,
+          "totalMs": 391.6167120000009,
+          "httpRequests": 134,
+          "results": 90
+        }
+      ]
+    },
+    {
+      "name": "S2",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 225.93466100000114,
+          "totalMs": 254.84701300000052,
+          "httpRequests": 97,
+          "results": 1
+        },
+        {
+          "rep": 2,
+          "planningMs": 187.88828300000023,
+          "totalMs": 217.40172600000005,
+          "httpRequests": 97,
+          "results": 1
+        },
+        {
+          "rep": 3,
+          "planningMs": 229.89662099999987,
+          "totalMs": 256.4034069999998,
+          "httpRequests": 97,
+          "results": 1
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 388.7622970000011,
+          "totalMs": 736.1139410000014,
+          "httpRequests": 234,
+          "results": 2
+        },
+        {
+          "rep": 2,
+          "planningMs": 345.6317909999998,
+          "totalMs": 696.2919409999995,
+          "httpRequests": 234,
+          "results": 2
+        },
+        {
+          "rep": 3,
+          "planningMs": 359.67015600000013,
+          "totalMs": 746.7712920000013,
+          "httpRequests": 234,
+          "results": 2
+        }
+      ]
+    },
+    {
+      "name": "S4",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 398.36501900000076,
+          "totalMs": 1883.659453000002,
+          "httpRequests": 300,
+          "results": 1
+        },
+        {
+          "rep": 2,
+          "planningMs": 402.6188199999997,
+          "totalMs": 1877.09109,
+          "httpRequests": 300,
+          "results": 1
+        },
+        {
+          "rep": 3,
+          "planningMs": 414.3898279999994,
+          "totalMs": 1852.0333300000002,
+          "httpRequests": 298,
+          "results": 1
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 334.06548999999904,
+          "totalMs": 658.8041519999988,
+          "httpRequests": 210,
+          "results": 2
+        },
+        {
+          "rep": 2,
+          "planningMs": 316.7612110000009,
+          "totalMs": 635.2780149999999,
+          "httpRequests": 210,
+          "results": 2
+        },
+        {
+          "rep": 3,
+          "planningMs": 330.8967329999996,
+          "totalMs": 651.6967789999999,
+          "httpRequests": 210,
+          "results": 2
+        }
+      ]
+    },
+    {
+      "name": "S6",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 251.42131100000006,
+          "totalMs": 10776.930629999999,
+          "httpRequests": 3869,
+          "results": 11
+        },
+        {
+          "rep": 2,
+          "planningMs": 319.5593439999993,
+          "totalMs": 11097.508267000001,
+          "httpRequests": 3869,
+          "results": 11
+        },
+        {
+          "rep": 3,
+          "planningMs": 244.26798299999973,
+          "totalMs": 10662.568138,
+          "httpRequests": 3869,
+          "results": 11
+        }
+      ]
+    },
+    {
+      "name": "S7",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 363.4578590000001,
+          "totalMs": 308419.96835800004,
+          "httpRequests": 162973,
+          "results": 2
+        },
+        {
+          "rep": 2,
+          "planningMs": 262.2458970000007,
+          "totalMs": 306253.381759,
+          "httpRequests": 162978,
+          "results": 2
+        },
+        {
+          "rep": 3,
+          "planningMs": 321.9788159999989,
+          "totalMs": 311769.89125,
+          "httpRequests": 162985,
+          "results": 2
+        }
+      ]
+    },
+    {
+      "name": "S8",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 145.4895149999993,
+          "totalMs": 341.0229670000008,
+          "httpRequests": 80,
+          "results": 1159
+        },
+        {
+          "rep": 2,
+          "planningMs": 2518.450150999999,
+          "totalMs": 2727.4376790000006,
+          "httpRequests": 80,
+          "results": 1159
+        },
+        {
+          "rep": 3,
+          "planningMs": 2182.849999000002,
+          "totalMs": 2354.306896000002,
+          "httpRequests": 80,
+          "results": 1159
+        }
+      ]
+    },
+    {
+      "name": "S9",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 217.97722900000008,
+          "totalMs": 1169.4326999999994,
+          "httpRequests": 446,
+          "results": 333
+        },
+        {
+          "rep": 2,
+          "planningMs": 239.87123900000006,
+          "totalMs": 1167.4951029999993,
+          "httpRequests": 446,
+          "results": 333
+        },
+        {
+          "rep": 3,
+          "planningMs": 229.0909789999987,
+          "totalMs": 1204.1614599999994,
+          "httpRequests": 446,
+          "results": 333
+        }
+      ]
+    },
+    {
+      "name": "S10",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 323.07549800000015,
+          "totalMs": 120386.917497,
+          "httpRequests": 47836,
+          "results": 9054
+        },
+        {
+          "rep": 2,
+          "planningMs": 365.10146200000054,
+          "totalMs": 119671.77580100001,
+          "httpRequests": 47836,
+          "results": 9054
+        },
+        {
+          "rep": 3,
+          "planningMs": 319.2433710000005,
+          "totalMs": 117248.719344,
+          "httpRequests": 47836,
+          "results": 9054
+        }
+      ]
+    },
+    {
+      "name": "S11",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 443.29540499999894,
+          "totalMs": 568.6903199999997,
+          "httpRequests": 159,
+          "results": 3
+        },
+        {
+          "rep": 2,
+          "planningMs": 467.67792999999983,
+          "totalMs": 602.2111260000001,
+          "httpRequests": 159,
+          "results": 3
+        },
+        {
+          "rep": 3,
+          "planningMs": 475.07777800000076,
+          "totalMs": 598.7317830000011,
+          "httpRequests": 159,
+          "results": 3
+        }
+      ]
+    },
+    {
+      "name": "S12",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 332.0395840000001,
+          "totalMs": 35509.927477,
+          "httpRequests": 17225,
+          "results": 393
+        },
+        {
+          "rep": 2,
+          "planningMs": 404.5358530000012,
+          "totalMs": 35936.103458,
+          "httpRequests": 17225,
+          "results": 393
+        },
+        {
+          "rep": 3,
+          "planningMs": 386.58452600000055,
+          "totalMs": 36136.320999,
+          "httpRequests": 17225,
+          "results": 393
+        }
+      ]
+    },
+    {
+      "name": "S13",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 7891.485246,
+          "totalMs": 37810.549057,
+          "httpRequests": 2341,
+          "results": 28
+        },
+        {
+          "rep": 2,
+          "planningMs": 315.525622000001,
+          "totalMs": 13793.572894,
+          "httpRequests": 2328,
+          "results": 28
+        },
+        {
+          "rep": 3,
+          "planningMs": 308.3611430000001,
+          "totalMs": 13975.641085000001,
+          "httpRequests": 2328,
+          "results": 28
+        }
+      ]
+    },
+    {
+      "name": "S14",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 363.73796200000106,
+          "totalMs": 32502.146626,
+          "httpRequests": 16793,
+          "results": 1620
+        },
+        {
+          "rep": 2,
+          "planningMs": 363.5844300000008,
+          "totalMs": 32757.499467,
+          "httpRequests": 16797,
+          "results": 1620
+        },
+        {
+          "rep": 3,
+          "planningMs": 300.21188900000016,
+          "totalMs": 33245.541293,
+          "httpRequests": 16788,
+          "results": 1620
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 517.1504359999999,
+          "totalMs": 17881.580208,
+          "httpRequests": 8300,
+          "results": 1000
+        },
+        {
+          "rep": 2,
+          "planningMs": 526.5649560000002,
+          "totalMs": 18259.451926,
+          "httpRequests": 8301,
+          "results": 1000
+        },
+        {
+          "rep": 3,
+          "planningMs": 9438.556276,
+          "totalMs": 38770.158551,
+          "httpRequests": 8322,
+          "results": 1000
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 809.7239109999991,
+          "totalMs": 4980.083418999999,
+          "httpRequests": 1093,
+          "results": 50
+        },
+        {
+          "rep": 2,
+          "planningMs": 831.6711410000007,
+          "totalMs": 5582.770771999998,
+          "httpRequests": 1092,
+          "results": 50
+        },
+        {
+          "rep": 3,
+          "planningMs": 820.5920939999996,
+          "totalMs": 5320.697966999998,
+          "httpRequests": 1107,
+          "results": 50
+        }
+      ]
+    },
+    {
+      "name": "C5",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "rep": 3,
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "name": "C6",
+      "runs": [
+        {
+          "rep": 1,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 2,
+          "error": "Error: TIMEOUT after 1800000ms"
+        },
+        {
+          "rep": 3,
+          "error": "Error: TIMEOUT after 1800000ms"
+        }
+      ]
+    },
+    {
+      "name": "C7",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 612.7148680000009,
+          "totalMs": 6680.541552999999,
+          "httpRequests": 1065,
+          "results": 92
+        },
+        {
+          "rep": 2,
+          "planningMs": 608.07071,
+          "totalMs": 5577.464974,
+          "httpRequests": 1062,
+          "results": 92
+        },
+        {
+          "rep": 3,
+          "planningMs": 596.3798539999989,
+          "totalMs": 5564.906429999999,
+          "httpRequests": 1066,
+          "results": 92
+        }
+      ]
+    },
+    {
+      "name": "C8",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 672.3294239999996,
+          "totalMs": 20266.740386000005,
+          "httpRequests": 8911,
+          "results": 3073
+        },
+        {
+          "rep": 2,
+          "planningMs": 594.6482400000004,
+          "totalMs": 19707.208836,
+          "httpRequests": 8922,
+          "results": 3073
+        },
+        {
+          "rep": 3,
+          "planningMs": 669.8965090000002,
+          "totalMs": 19799.896779000002,
+          "httpRequests": 8899,
+          "results": 3073
+        }
+      ]
+    },
+    {
+      "name": "C9",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 605.3517620000002,
+          "totalMs": 203117.25608700002,
+          "httpRequests": 59740,
+          "results": 100
+        },
+        {
+          "rep": 2,
+          "planningMs": 540.8867140000002,
+          "totalMs": 199186.809842,
+          "httpRequests": 59774,
+          "results": 100
+        },
+        {
+          "rep": 3,
+          "planningMs": 618.0992380000007,
+          "totalMs": 200027.896934,
+          "httpRequests": 59782,
+          "results": 100
+        }
+      ]
+    },
+    {
+      "name": "C10",
+      "runs": [
+        {
+          "rep": 1,
+          "planningMs": 639.0950100000009,
+          "totalMs": 10267.856035000003,
+          "httpRequests": 1924,
+          "results": 102
+        },
+        {
+          "rep": 2,
+          "planningMs": 620.9272249999995,
+          "totalMs": 10185.947960000001,
+          "httpRequests": 1928,
+          "results": 102
+        },
+        {
+          "rep": 3,
+          "planningMs": 525.1743709999992,
+          "totalMs": 10003.062751000001,
+          "httpRequests": 1942,
+          "results": 102
+        }
+      ]
+    }
+  ]
+}
