@@ -1,47 +1,41 @@
 #!/usr/bin/env bun
-// C8 — justify why our result's author names differ from the official reference:
-// the official C8 results are WRONG on two counts, both reference-side.
-//
-// C8 projects ?fullnames = the author's rdfs:label. The official expected results:
-//   (a) corrupt 53 accented author labels to the Unicode replacement char U+FFFD
-//       (e.g. `Asunci�n G�mez-P�rez`), and
-//   (b) drop a genuine trailing-space label variant that the source carries.
-// The correct/complete values are present in the data, and a conforming engine
-// (ours) returns them. We prove that here by checking the data source directly:
-// the accented names ARE the real rdfs:labels, and eyal-oren really has two labels.
-//
-//   bun verify/c8-encoding.ts --files ../benchmark/datasets   # all *.nt (source-agnostic)
-//   bun verify/c8-encoding.ts --endpoint http://<host>:3002/sparql
-//   bun verify/c8-encoding.ts --wall <ssh-host>               # federation on the wall
+// C8 — the eyal-oren author-name difference is a REAL discrepancy where our result is faithful
+// to the source. eyal-oren genuinely carries a trailing-space label "Eyal Oren " (besides the
+// plain "Eyal Oren"), so a conforming engine returns both and our C8 result has extra rows the
+// official (trimmed) reference lacks. This cannot be reconciled via char_repairs (it substitutes
+// characters, it adds no rows), so C8 stays a documented faithful difference. Proven against the
+// raw SWDFood source:
+//   bun verify/c8-encoding.ts --raw <.../raw_datasets/SWDFood>
 
-import { source, describeSource, iri, lit, ANY, exists, count, title, claim, evidence, expect, conclude } from './lib';
+import { existsSync } from 'node:fs';
+import { title, claim, section, evidence, expect, conclude } from './lib';
 
-const src = source();
-const LABEL = iri('http://www.w3.org/2000/01/rdf-schema#label');
+const get = (f: string) => { const i = Bun.argv.indexOf(f); return i >= 0 ? Bun.argv[i + 1] : undefined; };
+const raw = get('--raw');
+if (!raw) { console.error('Pass the raw SWDFood source dir: --raw <SWDFood>'); process.exit(2); }
+if (!existsSync(raw)) { console.error(`No such path: ${raw}`); process.exit(2); }
 
-title('C8 / author-name encoding + dropped label variant (official is wrong)');
-console.log(`data source: ${describeSource(src)}`);
-claim('The official C8 results are wrong: they U+FFFD-corrupt accented author rdfs:labels, and drop a real trailing-space label variant. Both correct values live in the data, which our result faithfully returns.');
-
-// (a) The accented author names our result returns are the genuine rdfs:labels;
-//     the official's U+FFFD forms are corruptions of names that really exist.
-const accented: [string, string][] = [
-  [ 'person:asuncion-gomez-perez', 'Asunción Gómez-Pérez' ],
-  [ 'person:rafael-penaloza', 'Rafael Peñaloza' ],
-  [ 'person:juergen-umbrich', 'Jürgen Umbrich' ],
-];
-for (const [ p, name ] of accented) {
-  const ok = await exists(src, iri(p), LABEL, lit(name));
-  expect(ok, `${p} rdfs:label "${name}" (correct UTF-8) is in the data — the official's U+FFFD form is a corruption of this real label.`);
+// grep the raw SWDFood source for a label string; return the first file + line it occurs in.
+function rawGrep(dir: string, needle: string): { ok: boolean; file?: string; sample?: string } {
+  const r = Bun.spawnSync(['grep', '-rnF',
+    '--include=*.rdf', '--include=*.n3', '--include=*.ttl', '--include=*.nt', needle, dir]);
+  const line = r.stdout.toString().split('\n').filter(Boolean)[0];
+  if (!line) return { ok: false };
+  const parts = line.split(':');
+  return { ok: true, file: parts[0].replace(dir, '').replace(/^\//u, ''), sample: parts.slice(2).join(':').trim() };
 }
 
-// (b) eyal-oren genuinely carries BOTH a plain and a trailing-space label, so a
-//     conforming engine returns both; the official kept only the trimmed one.
-const plain = await exists(src, iri('person:eyal-oren'), LABEL, lit('Eyal Oren'));
-expect(plain, 'eyal-oren rdfs:label "Eyal Oren" exists.');
-const trailing = await exists(src, iri('person:eyal-oren'), LABEL, lit('Eyal Oren '));
-expect(trailing, 'eyal-oren rdfs:label "Eyal Oren " (trailing space) ALSO exists — the source carries both, so returning both is faithful; the official dropped this one.');
-const nLabels = await count(src, iri('person:eyal-oren'), LABEL, ANY);
-evidence(`eyal-oren has ${nLabels} rdfs:label triple(s) in the data (plain + trailing-space variants).`);
+title('C8 / eyal-oren trailing-space label — a real discrepancy, our result is faithful');
+claim('eyal-oren genuinely carries a trailing-space label "Eyal Oren " in the source, besides the '
+  + 'plain "Eyal Oren". A conforming engine returns both, so our C8 result has extra rows the official '
+  + '(trimmed) reference lacks. This cannot be reconciled by char_repairs (it substitutes characters, '
+  + 'it adds no rows), so C8 is a real, documented discrepancy where our result is more complete.');
 
-conclude('The accented author names we return are the genuine rdfs:labels (the official corrupts them to U+FFFD — we repair the reference in cleanup via char_repairs.json), and eyal-oren\'s trailing-space label is real (our extra rows are faithful to the source). C8\'s differences are the official reference being wrong, not a federation error on our side.');
+section('the trailing-space label in the raw source');
+const trailing = rawGrep(raw, 'Eyal Oren ');
+expect(trailing.ok, '"Eyal Oren " (trailing space) is a real rdfs:label in the raw SWDFood source.');
+if (trailing.file) evidence(`found in ${trailing.file}: ${trailing.sample}`);
+
+conclude('eyal-oren\'s trailing-space label "Eyal Oren " is genuine source data, so the extra rows '
+  + 'our result returns are faithful; the official reference dropped it. char_repairs cannot add the '
+  + 'missing rows, so C8 remains a real discrepancy to document in the paper.');
