@@ -1,0 +1,7 @@
+# uv / virtualenv
+.venv/
+
+# marimo + python caches
+__marimo__/
+__pycache__/
+*.pyc

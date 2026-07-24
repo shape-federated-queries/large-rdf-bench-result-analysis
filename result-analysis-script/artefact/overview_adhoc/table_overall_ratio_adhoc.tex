@@ -1,0 +1,19 @@
+\begin{table}[t]
+	\centering
+	\caption{Per configuration: the average \texttt{ASK}/\texttt{COUNT} ratio of
+		execution and planning time (mean over the queries that completed in both
+		modes), the number of such queries, and the number of failed queries under
+		each source-selection strategy.}
+	\label{tab:overall-ratio-adhoc}
+	\begin{tabular}{lrrrrr}
+		\toprule
+		Configuration & \multicolumn{2}{c}{\texttt{ASK}/\texttt{COUNT} ratio} & Queries & \multicolumn{2}{c}{Failures} \\
+		\cmidrule(lr){2-3}\cmidrule(lr){5-6}
+		             & exec. & plan. & used & \texttt{COUNT} & \texttt{ASK} \\
+		\midrule
+		all-Comunica & 1.8x & 0.9x & 6 & 16 & 17 \\
+		mixed        & 2.8x & 2.7x & 5 & 11 & 18 \\
+		all-QLever   & 20.8x & 0.8x & 8 & 4 & 16 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
