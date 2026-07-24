@@ -1,0 +1,17 @@
+\begin{table}[t]
+	\centering
+	\caption{Median query planning and execution time (ms) on the QLever-hosted
+		federation, over the queries that completed under both source-selection
+		strategies, together with their \texttt{ASK}/\texttt{COUNT} ratio.}
+	\label{tab:qlever-ask-count-adhoc}
+	\begin{tabular}{lrr}
+		\toprule
+		                            & Planning (ms) & Execution (ms) \\
+		\midrule
+		\texttt{ASK}                & 274 & 592 \\
+		\texttt{COUNT}              & 340 & 1762 \\
+		\midrule
+		\texttt{ASK}/\texttt{COUNT} & 0.8x & 0.3x \\
+		\bottomrule
+	\end{tabular}
+\end{table}

@@ -139,7 +139,32 @@ def overall_table_adhoc(ppl):
 
 
 @app.cell
-def _():
+def qlever_median_table(ppl):
+    q_ok = ppl[(ppl["setup"] == "qlever") & (~ppl["error"].astype(bool))]
+    both_modes = set(q_ok[q_ok["mode"] == "ask"]["name"]) & set(q_ok[q_ok["mode"] == "count"]["name"])
+    paired = q_ok[q_ok["name"].isin(both_modes)]
+    medians = {
+        mode: (
+            float(paired[paired["mode"] == mode]["median_planning"].median()),
+            float(paired[paired["mode"] == mode]["median_total"].median()),
+        )
+        for mode in ("ask", "count")
+    }
+
+    ratio = tuple(medians["ask"][i] / medians["count"][i] for i in (0, 1))
+    cells = [f"{v:.0f}" for v in medians["ask"]] \
+        + [f"{v:.0f}" for v in medians["count"]] \
+        + [f"{v:.1f}x" for v in ratio]
+
+    qlever_template = os.path.join(
+        os.path.dirname(T.__file__), "templates", "table_qlever_ask_count_adhoc.tex")
+    with open(qlever_template) as qlever_f:
+        qlever_tex = qlever_f.read()
+    for qlever_value in cells:
+        qlever_tex = qlever_tex.replace("{}", qlever_value, 1)
+    (T.ARTEFACT_ROOT / TOPIC).mkdir(parents=True, exist_ok=True)
+    (T.ARTEFACT_ROOT / TOPIC / "table_qlever_ask_count_adhoc.tex").write_text(qlever_tex)
+    mo.md(f"QLever medians (ms) --- ask {medians['ask']}, count {medians['count']}, ratio {ratio}")
     return
 
 
