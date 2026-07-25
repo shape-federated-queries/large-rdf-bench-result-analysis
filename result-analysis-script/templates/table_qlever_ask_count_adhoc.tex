@@ -1,16 +1,18 @@
 \begin{table}[t]
 	\centering
-	\caption{Planning and execution time on the QLever-hosted federation. Each cell
-		is $\text{median}^{\max}_{\min}$ of the per-query time; the last row is the
-		per-query \texttt{ASK}/\texttt{COUNT} ratio.}
+	\caption{Median, minimum and maximum per-query planning and execution time on the
+		QLever-hosted federation; the last row is the per-query \texttt{ASK}/\texttt{COUNT}
+		ratio (dimensionless).}
 	\label{tab:qlever-ask-count-adhoc}
-	\begin{tabular}{lrr}
+	\begin{tabular}{lrrrrrr}
 		\toprule
-		                            & Planning (ms) & Execution (s) \\
+		                            & \multicolumn{3}{c}{Planning (ms)} & \multicolumn{3}{c}{Execution (s)} \\
+		\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+		                            & Med & Min & Max & Med & Min & Max \\
 		\midrule
-		\texttt{ASK}                & {} & {} \\
-		\texttt{COUNT}              & {} & {} \\
-		\texttt{ASK}/\texttt{COUNT} & {} & {} \\
+		\texttt{ASK}                & {} & {} & {} & {} & {} & {} \\
+		\texttt{COUNT}              & {} & {} & {} & {} & {} & {} \\
+		\texttt{ASK}/\texttt{COUNT} & {} & {} & {} & {} & {} & {} \\
 		\bottomrule
 	\end{tabular}
 \end{table}

@@ -140,8 +140,12 @@ def overall_table_adhoc(ppl):
 
 @app.cell
 def qlever_median_table(ppl):
-    def bound(series, dec):
-        return f"${series.median():.{dec}f}^{{{series.max():.{dec}f}}}_{{{series.min():.{dec}f}}}$"
+    def stats(series, dec):
+        return [
+            f"{series.median():.{dec}f}",
+            f"{series.min():.{dec}f}",
+            f"{series.max():.{dec}f}",
+        ]
 
     q_ok = ppl[(ppl["setup"] == "qlever") & (~ppl["error"].astype(bool))]
     common = set(q_ok[q_ok["mode"] == "ask"]["name"]) & set(q_ok[q_ok["mode"] == "count"]["name"])
@@ -150,12 +154,12 @@ def qlever_median_table(ppl):
     cells = []
     for mode in ("ask", "count"):
         strat = paired[paired["mode"] == mode]
-        cells.append(bound(strat["median_planning"].dropna(), 0))
-        cells.append(bound(strat["median_total"].dropna() / 1000.0, 1))
+        cells.extend(stats(strat["median_planning"].dropna(), 0))
+        cells.extend(stats(strat["median_total"].dropna() / 1000.0, 1))
     pl_ratio = L.count_ask_ratio(ppl, "median_planning")
     ex_ratio = L.count_ask_ratio(ppl, "median_total")
-    cells.append(bound(pl_ratio[pl_ratio["setup"] == "qlever"]["ratio"], 2))
-    cells.append(bound(ex_ratio[ex_ratio["setup"] == "qlever"]["ratio"], 2))
+    cells.extend(stats(pl_ratio[pl_ratio["setup"] == "qlever"]["ratio"], 2))
+    cells.extend(stats(ex_ratio[ex_ratio["setup"] == "qlever"]["ratio"], 2))
 
     qlever_template = os.path.join(
         os.path.dirname(T.__file__), "templates", "table_qlever_ask_count_adhoc.tex")
